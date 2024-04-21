@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'python_heroku_task.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'python_heroku_task',
-        'USER': 'sample_user',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'NAME': 'postgres',
+        'USER': 'postgres.kvzeofdcassmewuwfssf',
+        'PASSWORD': 'QdMAh!q2u$8sRLT',
+        'HOST': 'aws-0-us-west-1.pooler.supabase.com',
         'PORT': '5432',
     }
 }
